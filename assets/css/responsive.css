@@ -1,0 +1,139 @@
+@media screen and (max-width: 1400px) {
+    .song-active-info {
+        margin-bottom: 50px;
+    }
+    .song-list-block {
+        height: 400px;
+    }
+    .song-item-playing-description-block {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+    .sidebar-section {
+        display: none;
+    }
+    .main-section {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+    .search__block-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .song-item-playing-description-block {
+        width: 300px;
+    }
+    .song-title {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .header {
+        justify-content: center;
+    }
+    .header__info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .song-block {
+        margin-left: 0px;
+        margin-right: 4px;
+    }
+    .song-item-react {
+        margin-left: 20px;
+    }
+    .song-title {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .song-item-playing-description-block {
+        width: 200px;
+    }
+    .song-block {
+        margin-right: -8px;
+    }
+    .list-song {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .search__input-block,
+    .search__input {
+        width: 400px;
+    }
+    .song-active-info {
+        margin-bottom: 0px;
+    }
+    .song-list-block {
+        height: 320px;
+    }
+    .content-block {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .search__input-block,
+    .search__input {
+        display: none;
+    }
+    .song-item {
+        padding-left: 0;
+    }
+    .song-time {
+        margin-right: 12px;
+    }
+    .song-item-react {
+        display: none;
+    }
+    .song-title {
+        max-width: 280px;
+    }
+    .song-item-react {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 415px) {
+     ::-webkit-scrollbar {
+        width: .5rem;
+        background-color: #55505d;
+        border-radius: 40px;
+    }
+     ::-webkit-scrollbar-thumb {
+        background: #4b3073;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .search__input-block,
+    .search__input {
+        width: 290px;
+    }
+    .song-title {
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .song-title {
+        max-width: 150px;
+    }
+}
